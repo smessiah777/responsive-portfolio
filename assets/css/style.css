@@ -215,3 +215,90 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* media quries */
+
+@media only screen and (max-width: 768px) {
+
+  body{
+      font-size: 18px;
+      line-height: 20px;
+  }
+
+  h1{
+      line-height: 24px;
+  }
+
+  #masthead {
+      width: 100vh;
+  }
+
+  #logo{
+    margin-left: 25px;
+  }
+
+  nav{
+      margin-right: 125px;
+  }
+
+  
+  
+
+  #main-container{
+     padding-top: 100px;
+     min-height: calc(100vh - 500px);
+  }
+
+
+  .main-section{
+      width: 90%;
+      height: 500px;
+      margin-left: 40px;
+      /* overflow: auto; */
+      
+  }
+
+
+  .work{
+    width: 155px;
+    margin: 2px 15px 2px;
+  }
+
+  .work h3{
+    line-height: 30px;
+  }
+
+
+  textarea {
+    height: 100px;
+  }
+
+  footer{
+      margin-top: 130px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+}
+
+  @media only screen and (max-width: 640px) {
+
+
+
+
+
+
+
+
+  }
+  
+
+
