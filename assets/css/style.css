@@ -291,9 +291,49 @@ input[type=submit] {
 
   @media only screen and (max-width: 640px) {
 
+    #masthead {
+     overflow: hidden;
+     width: 600px;
+     margin: 0 auto;
+    }
+
+    #logo{
+     margin: 0 auto;
+     max-width: 640px;
+     width: 600px;
+     overflow: hidden;
+    }
+
+    nav{
+      max-width: 640px;
+      margin:10px 185px 0 0;
+    }
+
+
+    #main-container{
+      padding-top: 140px;
+    }
+
+
+    .main-section{
+     padding: 20px;
+    }
+
+    h1{
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .main-section > p{
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    
 
 
 
+    
 
 
 
